@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+
+    background-color: #fed06e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.phone{
+    min-width: 400px;
+    min-height: 700px;
+    background: white;
+    border-radius: 35px;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:1rem;   
+}
+.container .time p{
+    margin-left:1rem;
+    font-family: sans-serif;
+}
+.Discovery{
+    text-align: center;
+    padding: 1rem;
+}
+.Discovery p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.picBox{
+    padding: 0.7rem;
+    background-color: rgb(186, 176, 176);
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-top:1.5rem ;
+
+}
+.picBox div{
+    background-color:white;
+    width: 49%;
+    height: 31%;
+    text-align: center;
+}
+.picBox div:hover{
+    background-color: rgb(251, 152, 31);
+
+}
+.picBox img{
+    width: 50px;
+    height: 50px;
+    margin-top: 2rem;
+}
+.picBox h2{
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.picBox p{
+    font-size: 0.6rem;
+    margin-top: 1rem;
+}
+
+.foodder{
+    display: flex;
+    justify-content:space-between;
+    margin-top:0.5rem;
+    padding: 0 1rem;
+}
+.foodder div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foodder div:hover p,.foodder div:hover i{
+    color: rgb(251, 152, 31);
+}
+.foodder i{
+    font-size: 1.5rem;
+}
+
+.foodder p{
+font-size: 0.5rem;
+margin-top: 0.5rem;
+}
+.foodder::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(119, 114, 114);
+    width: 150px;
+    height: 8px;
+    left: 50%;
+    transform:translateX(-50%);
+    bottom: 25px;
+    border-radius: 5px;
+
+}
